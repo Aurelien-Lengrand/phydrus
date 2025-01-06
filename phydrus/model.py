@@ -9,11 +9,11 @@ from logging import getLogger
 from numpy import arange, linspace
 from pandas import DataFrame, DatetimeIndex, MultiIndex
 
-from .plot import Plots
+
 from .read import read_profile, read_nod_inf, read_run_inf, read_tlevel, \
     read_balance, read_i_check, read_obs_node, read_solute, read_alevel
 from .version import __version__
-
+from .plot import Plots
 
 class Model:
     """
